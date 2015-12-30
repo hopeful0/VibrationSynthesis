@@ -7,7 +7,7 @@ import android.graphics.*;
 
 public class MainView extends SurfaceView implements Callback,Runnable
 {
-	private static final int SLEEP_TIME = 20;
+	public static int SLEEP_TIME = 20;
 	
 	boolean flag;
 	

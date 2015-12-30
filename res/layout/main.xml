@@ -23,6 +23,12 @@
 			android:text="振动列表"
 			android:id="@+id/btn_list"/>
 
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="调整精度"
+			android:id="@+id/btn_stime"/>
+
 	</LinearLayout>
 
 </LinearLayout>

@@ -21,11 +21,19 @@
 
 		<EditText
 			android:layout_height="wrap_content"
-			android:layout_width="match_parent"
+			android:layout_width="wrap_content"
 			android:ems="10"
 			android:hint="像素"
 			android:id="@+id/et_A"
-			android:inputType="numberDecimal|numberSigned"/>
+			android:inputType="numberDecimal|numberSigned"
+			android:layout_weight="1.0"/>
+
+		<ToggleButton
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:textOn="*PI"
+			android:textOff="*1"
+			android:id="@+id/tb_A"/>
 
 	</LinearLayout>
 
@@ -43,11 +51,19 @@
 
 		<EditText
 			android:layout_height="wrap_content"
-			android:layout_width="match_parent"
+			android:layout_width="wrap_content"
 			android:ems="10"
 			android:hint="弧度/秒"
 			android:id="@+id/et_omega"
-			android:inputType="numberDecimal|numberSigned"/>
+			android:inputType="numberDecimal|numberSigned"
+			android:layout_weight="1.0"/>
+
+		<ToggleButton
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:textOn="*PI"
+			android:textOff="*1"
+			android:id="@+id/tb_omega"/>
 
 	</LinearLayout>
 
@@ -65,11 +81,19 @@
 
 		<EditText
 			android:layout_height="wrap_content"
-			android:layout_width="match_parent"
+			android:layout_width="wrap_content"
 			android:ems="10"
 			android:hint="弧度"
 			android:id="@+id/et_phi0"
-			android:inputType="numberDecimal|numberSigned"/>
+			android:inputType="numberDecimal|numberSigned"
+			android:layout_weight="1.0"/>
+
+		<ToggleButton
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:textOn="*PI"
+			android:textOff="*1"
+			android:id="@+id/tb_phi0"/>
 
 	</LinearLayout>
 
@@ -87,11 +111,19 @@
 
 		<EditText
 			android:layout_height="wrap_content"
-			android:layout_width="match_parent"
+			android:layout_width="wrap_content"
 			android:ems="10"
 			android:hint="弧度"
 			android:id="@+id/et_direction"
-			android:inputType="numberDecimal|numberSigned"/>
+			android:inputType="numberDecimal|numberSigned"
+			android:layout_weight="1.0"/>
+
+		<ToggleButton
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:textOn="*PI"
+			android:textOff="*1"
+			android:id="@+id/tb_direction"/>
 
 	</LinearLayout>
 

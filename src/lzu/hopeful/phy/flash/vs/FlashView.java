@@ -89,9 +89,9 @@ public class FlashView
 		T=getT();
 	}
 	
-	public void run(double delta)
+	public void run(long delta)
 	{
-		t += delta / 1000;
+		t += delta / 1000d;
 	}
 	
 	public void draw(Canvas c)
@@ -117,11 +117,11 @@ public class FlashView
 		//----------------
 		//--path--
 		line_paint.setColor(Color.MAGENTA);
-		if(t<T)
-		{
+		//if(t<T)
+		//{
 			points.add(tx);
 			points.add(ty);
-		}
+		//}
 		Path path = new Path();
 		if(points.size()>0)
 			path.moveTo(points.get(0),points.get(1));
